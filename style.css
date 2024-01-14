@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
+/*  
+.inherited-styles-for-exported-element {
+    color: #333;
+  }
+  
+  h3 {
+    font-family: "CerebriSans-Bold", -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 0;
+  }
+   */
+/* Text Animation */
+/* https://www.youtube.com/watch?v=yefgBA1CecI */
+/* https://www.youtube.com/watch?v=m0o0QNpY9-0 */
+/* CSS Animation */
+/* https://www.youtube.com/watch?v=SgmNxE9lWcY */
+/* Buttons */
+/* https://getcssscan.com/css-buttons-examples */
+/* Google Fonts */
+/* https://www.typewolf.com/google-fonts */
+/* Website Example */
+/* https://moffett.ai/ */
+/* https://www.webdesign-inspiration.com/web-designs/industry/science */
+/* https://www.datascience.movie/ */
+
+body {
+    overflow-y: hidden;
+    background-color: rgb(10, 112, 207);
+}
+
+/* Add more styles to your content as needed */
+
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 7px;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+.neon-button {
+    margin: 10px;
+    margin-top: 35px;
+    margin-left: 50px;
+    display: block;
+    padding: 0;
+    padding-bottom: 0;
+    font-size: 45px;
+    background-color: rgb(10, 112, 207);
+    color: #111;
+    text-align: center;
+    border: 1px solid rgb(10, 112, 207);
+
+
+
+  }
+img {
+    box-shadow: 0 0 3px #000000, 0 0 6px #000000, 0 0 12px #000000;
+  }
+.neon-button:hover {
+    background-color: rgb(10, 112, 207); /* Change the background color on hover */
+    color: #111; /* Change the text color on hover */
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 25px; 
+    left: 28.2%; 
+    transform: translateX(-50%);
+    text-align: center;
+    color: #111;
+    padding: 10px;
+}
+p {
+    font-family: sans-serif;
+    position: absolute;
+    top: 100px; 
+    left: 45%; 
+    transform: translateX(-50%);
+    text-align: justify;
+    color: black;
+    font-size: larger;
+}
+
+#piotr_tytul {
+    font-family: sans-serif;
+    position: absolute;
+    top: 300px; 
+    left: 22.0%; 
+    transform: translateX(-50%);
+    text-align: center;
+    color: black;
+
+}
+#opis_piotr {
+    font-family: sans-serif;
+    position: absolute;
+    top: 350px; 
+    left: 45%; 
+    transform: translateX(-50%);
+    text-align: justify;
+    color: black;
+    font-size: larger;
+}
+#maria {
+    margin-top: 15px;
+    top: 0;
+    position: absolute;
+    left: 80%;
+    height: 327px;
+    width: 223px;
+    box-shadow: 0 0 3px #000000, 0 0 6px #000000, 0 0 12x #000000;
+    border: none;
+    border-radius: 5px;
+}
+#maria:hover {
+    box-shadow: 0 0 3px #ffd000, 0 0 6px #ffd000, 0 0 12x #ffd000;
+
+}
+#piotr {
+    margin-top: 25px;
+    top: 350px;
+    position: absolute;
+    left: 80%;
+    height: 327px;
+    width: 223px;
+    box-shadow: 0 0 3px #000000, 0 0 6px #000000, 0 0 12x #000000;
+    border: none;
+    border-radius: 5px;
+    
+}
+iframe {
+    position: absolute;
+    left: 30%;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #000000, 0 0 6px #000000, 0 0 12px #000000;
+}
+.neon-button1 {
+    position: fixed;
+    bottom: 50px;
+    margin: 10px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: rgb(10, 112, 207);
+    color: rgb(39, 39, 39);
+    text-align: center;
+    border: 1px solid rgb(10, 112, 207);
+}
+.neon-button1 a {
+ color: #ffd000;
+ text-decoration: none;
+}
+.neon-button1:hover {
+    font-weight: bold;
+    color: rgb(236, 181, 0);
+}
+.link {
+    font-weight: bold;
+    color: black;
+    text-decoration: #ffd000 wavy underline;
+}
